@@ -1,0 +1,480 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1496pt" height="476pt" viewBox="0.00 0.00 1496.00 476.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 472)">
+<title>pastafarianism</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-472 1491.76,-472 1491.76,4 -4,4"/>
+<!-- MainSequence -->
+<g id="node1" class="node">
+<title>MainSequence</title>
+<polygon fill="cyan" stroke="black" points="340.01,-442.54 340.01,-457.46 314.7,-468 278.9,-468 253.58,-457.46 253.58,-442.54 278.9,-432 314.7,-432 340.01,-442.54"/>
+<text xml:space="preserve" text-anchor="middle" x="296.8" y="-446.7" font-family="Times,serif" font-size="9.00">MainSequence</text>
+</g>
+<!-- LLM Job -->
+<g id="node2" class="node">
+<title>LLM Job</title>
+<polygon fill="orange" stroke="black" points="157.8,-396 103.8,-396 103.8,-360 157.8,-360 157.8,-396"/>
+<text xml:space="preserve" text-anchor="middle" x="130.8" y="-374.7" font-family="Times,serif" font-size="9.00">LLM Job</text>
+</g>
+<!-- MainSequence&#45;&gt;LLM Job -->
+<g id="edge1" class="edge">
+<title>MainSequence-&gt;LLM Job</title>
+<path fill="none" stroke="black" d="M267.12,-436.49C239.63,-424.89 198.6,-407.59 168.74,-395"/>
+<polygon fill="black" stroke="black" points="170.26,-391.84 159.69,-391.18 167.54,-398.29 170.26,-391.84"/>
+</g>
+<!-- Customer Input -->
+<g id="node5" class="node">
+<title>Customer Input</title>
+<polygon fill="orange" stroke="black" points="332.55,-396 261.05,-396 261.05,-360 332.55,-360 332.55,-396"/>
+<text xml:space="preserve" text-anchor="middle" x="296.8" y="-374.7" font-family="Times,serif" font-size="9.00">Customer Input</text>
+</g>
+<!-- MainSequence&#45;&gt;Customer Input -->
+<g id="edge4" class="edge">
+<title>MainSequence-&gt;Customer Input</title>
+<path fill="none" stroke="black" d="M296.8,-431.7C296.8,-424.41 296.8,-415.73 296.8,-407.54"/>
+<polygon fill="black" stroke="black" points="300.3,-407.62 296.8,-397.62 293.3,-407.62 300.3,-407.62"/>
+</g>
+<!-- Ordering -->
+<g id="node8" class="node">
+<title>Ordering</title>
+<polygon fill="cyan" stroke="black" points="533.24,-370.54 533.24,-385.46 515.41,-396 490.19,-396 472.36,-385.46 472.36,-370.54 490.19,-360 515.41,-360 533.24,-370.54"/>
+<text xml:space="preserve" text-anchor="middle" x="502.8" y="-374.7" font-family="Times,serif" font-size="9.00">Ordering</text>
+</g>
+<!-- MainSequence&#45;&gt;Ordering -->
+<g id="edge7" class="edge">
+<title>MainSequence-&gt;Ordering</title>
+<path fill="none" stroke="black" d="M329.44,-437.91C366.41,-425.35 426.53,-404.92 465.37,-391.72"/>
+<polygon fill="black" stroke="black" points="466.43,-395.05 474.77,-388.52 464.18,-388.43 466.43,-395.05"/>
+</g>
+<!-- Has LLM Job? -->
+<g id="node3" class="node">
+<title>Has LLM Job?</title>
+<ellipse fill="gray" stroke="black" cx="40.8" cy="-306" rx="40.8" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="40.8" y="-302.7" font-family="Times,serif" font-size="9.00">Has LLM Job?</text>
+</g>
+<!-- LLM Job&#45;&gt;Has LLM Job? -->
+<g id="edge2" class="edge">
+<title>LLM Job-&gt;Has LLM Job?</title>
+<path fill="none" stroke="black" d="M108.55,-359.7C96.66,-350.44 81.88,-338.95 69.17,-329.06"/>
+<polygon fill="black" stroke="black" points="71.58,-326.51 61.54,-323.13 67.28,-332.03 71.58,-326.51"/>
+</g>
+<!-- LLM Job* -->
+<g id="node4" class="node">
+<title>LLM Job*</title>
+<ellipse fill="gray" stroke="black" cx="130.8" cy="-306" rx="31.62" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="130.8" y="-302.7" font-family="Times,serif" font-size="9.00">LLM Job*</text>
+</g>
+<!-- LLM Job&#45;&gt;LLM Job* -->
+<g id="edge3" class="edge">
+<title>LLM Job-&gt;LLM Job*</title>
+<path fill="none" stroke="black" d="M130.8,-359.7C130.8,-352.41 130.8,-343.73 130.8,-335.54"/>
+<polygon fill="black" stroke="black" points="134.3,-335.62 130.8,-325.62 127.3,-335.62 134.3,-335.62"/>
+</g>
+<!-- Needs Customer Input? -->
+<g id="node6" class="node">
+<title>Needs Customer Input?</title>
+<ellipse fill="gray" stroke="black" cx="238.8" cy="-306" rx="58.28" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="238.8" y="-302.7" font-family="Times,serif" font-size="9.00">Needs Customer Input?</text>
+</g>
+<!-- Customer Input&#45;&gt;Needs Customer Input? -->
+<g id="edge5" class="edge">
+<title>Customer Input-&gt;Needs Customer Input?</title>
+<path fill="none" stroke="black" d="M282.46,-359.7C275.62,-351.44 267.3,-341.39 259.76,-332.3"/>
+<polygon fill="black" stroke="black" points="262.61,-330.25 253.54,-324.79 257.22,-334.72 262.61,-330.25"/>
+</g>
+<!-- Ask Customer -->
+<g id="node7" class="node">
+<title>Ask Customer</title>
+<ellipse fill="gray" stroke="black" cx="354.8" cy="-306" rx="39.49" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="354.8" y="-302.7" font-family="Times,serif" font-size="9.00">Ask Customer</text>
+</g>
+<!-- Customer Input&#45;&gt;Ask Customer -->
+<g id="edge6" class="edge">
+<title>Customer Input-&gt;Ask Customer</title>
+<path fill="none" stroke="black" d="M311.14,-359.7C318.08,-351.32 326.55,-341.1 334.17,-331.9"/>
+<polygon fill="black" stroke="black" points="336.77,-334.24 340.46,-324.31 331.38,-329.78 336.77,-334.24"/>
+</g>
+<!-- Complete Order -->
+<g id="node9" class="node">
+<title>Complete Order</title>
+<polygon fill="orange" stroke="black" points="485.3,-324 412.3,-324 412.3,-288 485.3,-288 485.3,-324"/>
+<text xml:space="preserve" text-anchor="middle" x="448.8" y="-302.7" font-family="Times,serif" font-size="9.00">Complete Order</text>
+</g>
+<!-- Ordering&#45;&gt;Complete Order -->
+<g id="edge8" class="edge">
+<title>Ordering-&gt;Complete Order</title>
+<path fill="none" stroke="black" d="M489.73,-360.05C483.52,-352.01 475.96,-342.2 469.03,-333.23"/>
+<polygon fill="black" stroke="black" points="471.93,-331.25 463.05,-325.47 466.39,-335.53 471.93,-331.25"/>
+</g>
+<!-- Choose Item -->
+<g id="node13" class="node">
+<title>Choose Item</title>
+<polygon fill="orange" stroke="black" points="588.3,-324 527.3,-324 527.3,-288 588.3,-288 588.3,-324"/>
+<text xml:space="preserve" text-anchor="middle" x="557.8" y="-302.7" font-family="Times,serif" font-size="9.00">Choose Item</text>
+</g>
+<!-- Ordering&#45;&gt;Choose Item -->
+<g id="edge12" class="edge">
+<title>Ordering-&gt;Choose Item</title>
+<path fill="none" stroke="black" d="M516.11,-360.05C522.44,-352.01 530.14,-342.2 537.19,-333.23"/>
+<polygon fill="black" stroke="black" points="539.86,-335.49 543.29,-325.47 534.36,-331.17 539.86,-335.49"/>
+</g>
+<!-- Build Item -->
+<g id="node16" class="node">
+<title>Build Item</title>
+<polygon fill="orange" stroke="black" points="773.8,-324 719.8,-324 719.8,-288 773.8,-288 773.8,-324"/>
+<text xml:space="preserve" text-anchor="middle" x="746.8" y="-302.7" font-family="Times,serif" font-size="9.00">Build Item</text>
+</g>
+<!-- Ordering&#45;&gt;Build Item -->
+<g id="edge15" class="edge">
+<title>Ordering-&gt;Build Item</title>
+<path fill="none" stroke="black" d="M531.27,-368.83C575.24,-356.22 659.71,-331.98 708.83,-317.89"/>
+<polygon fill="black" stroke="black" points="709.53,-321.33 718.18,-315.21 707.6,-314.6 709.53,-321.33"/>
+</g>
+<!-- Has order items? -->
+<g id="node10" class="node">
+<title>Has order items?</title>
+<ellipse fill="gray" stroke="black" cx="154.8" cy="-234" rx="44.3" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="154.8" y="-230.7" font-family="Times,serif" font-size="9.00">Has order items?</text>
+</g>
+<!-- Complete Order&#45;&gt;Has order items? -->
+<g id="edge9" class="edge">
+<title>Complete Order-&gt;Has order items?</title>
+<path fill="none" stroke="black" d="M411.82,-290.71C408.79,-289.73 405.75,-288.81 402.8,-288 317.82,-264.64 293.27,-273.5 207.8,-252 204.87,-251.26 201.86,-250.45 198.85,-249.6"/>
+<polygon fill="black" stroke="black" points="200.01,-246.29 189.42,-246.79 198.01,-253 200.01,-246.29"/>
+</g>
+<!-- Not currently working on something? -->
+<g id="node11" class="node">
+<title>Not currently working on something?</title>
+<ellipse fill="gray" stroke="black" cx="303.8" cy="-234" rx="87.14" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="303.8" y="-230.7" font-family="Times,serif" font-size="9.00">Not currently working on something?</text>
+</g>
+<!-- Complete Order&#45;&gt;Not currently working on something? -->
+<g id="edge10" class="edge">
+<title>Complete Order-&gt;Not currently working on something?</title>
+<path fill="none" stroke="black" d="M412.58,-287.52C392.78,-277.96 368.11,-266.04 347.27,-255.98"/>
+<polygon fill="black" stroke="black" points="348.96,-252.92 338.44,-251.72 345.92,-259.22 348.96,-252.92"/>
+</g>
+<!-- Confirm Order -->
+<g id="node12" class="node">
+<title>Confirm Order</title>
+<ellipse fill="gray" stroke="black" cx="448.8" cy="-234" rx="40.36" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="448.8" y="-230.7" font-family="Times,serif" font-size="9.00">Confirm Order</text>
+</g>
+<!-- Complete Order&#45;&gt;Confirm Order -->
+<g id="edge11" class="edge">
+<title>Complete Order-&gt;Confirm Order</title>
+<path fill="none" stroke="black" d="M448.8,-287.7C448.8,-280.41 448.8,-271.73 448.8,-263.54"/>
+<polygon fill="black" stroke="black" points="452.3,-263.62 448.8,-253.62 445.3,-263.62 452.3,-263.62"/>
+</g>
+<!-- Needs current item? -->
+<g id="node14" class="node">
+<title>Needs current item?</title>
+<ellipse fill="gray" stroke="black" cx="557.8" cy="-234" rx="50.42" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="557.8" y="-230.7" font-family="Times,serif" font-size="9.00">Needs current item?</text>
+</g>
+<!-- Choose Item&#45;&gt;Needs current item? -->
+<g id="edge13" class="edge">
+<title>Choose Item-&gt;Needs current item?</title>
+<path fill="none" stroke="black" d="M557.8,-287.7C557.8,-280.41 557.8,-271.73 557.8,-263.54"/>
+<polygon fill="black" stroke="black" points="561.3,-263.62 557.8,-253.62 554.3,-263.62 561.3,-263.62"/>
+</g>
+<!-- Ask Item -->
+<g id="node15" class="node">
+<title>Ask Item</title>
+<ellipse fill="gray" stroke="black" cx="654.8" cy="-234" rx="28.56" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="654.8" y="-230.7" font-family="Times,serif" font-size="9.00">Ask Item</text>
+</g>
+<!-- Choose Item&#45;&gt;Ask Item -->
+<g id="edge14" class="edge">
+<title>Choose Item-&gt;Ask Item</title>
+<path fill="none" stroke="black" d="M581.78,-287.7C595.68,-277.67 613.22,-265.01 627.63,-254.61"/>
+<polygon fill="black" stroke="black" points="629.29,-257.73 635.35,-249.04 625.19,-252.05 629.29,-257.73"/>
+</g>
+<!-- Customize Item -->
+<g id="node17" class="node">
+<title>Customize Item</title>
+<polygon fill="cyan" stroke="black" points="791.91,-226.54 791.91,-241.46 765.48,-252 728.12,-252 701.69,-241.46 701.69,-226.54 728.12,-216 765.48,-216 791.91,-226.54"/>
+<text xml:space="preserve" text-anchor="middle" x="746.8" y="-230.7" font-family="Times,serif" font-size="9.00">Customize Item</text>
+</g>
+<!-- Build Item&#45;&gt;Customize Item -->
+<g id="edge16" class="edge">
+<title>Build Item-&gt;Customize Item</title>
+<path fill="none" stroke="black" d="M746.8,-287.7C746.8,-280.41 746.8,-271.73 746.8,-263.54"/>
+<polygon fill="black" stroke="black" points="750.3,-263.62 746.8,-253.62 743.3,-263.62 750.3,-263.62"/>
+</g>
+<!-- Confirm Item -->
+<g id="node40" class="node">
+<title>Confirm Item</title>
+<ellipse fill="gray" stroke="black" cx="846.8" cy="-234" rx="37.3" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="846.8" y="-230.7" font-family="Times,serif" font-size="9.00">Confirm Item</text>
+</g>
+<!-- Build Item&#45;&gt;Confirm Item -->
+<g id="edge39" class="edge">
+<title>Build Item-&gt;Confirm Item</title>
+<path fill="none" stroke="black" d="M771.78,-287.52C785.54,-277.88 802.71,-265.86 817.15,-255.76"/>
+<polygon fill="black" stroke="black" points="818.75,-258.9 824.94,-250.3 814.74,-253.17 818.75,-258.9"/>
+</g>
+<!-- Chicken Nuggets -->
+<g id="node18" class="node">
+<title>Chicken Nuggets</title>
+<polygon fill="orange" stroke="black" points="554.55,-180 477.05,-180 477.05,-144 554.55,-144 554.55,-180"/>
+<text xml:space="preserve" text-anchor="middle" x="515.8" y="-158.7" font-family="Times,serif" font-size="9.00">Chicken Nuggets</text>
+</g>
+<!-- Customize Item&#45;&gt;Chicken Nuggets -->
+<g id="edge17" class="edge">
+<title>Customize Item-&gt;Chicken Nuggets</title>
+<path fill="none" stroke="black" d="M711.96,-221.95C705.59,-219.96 699,-217.9 692.8,-216 650.05,-202.87 601.37,-188.32 565.9,-177.8"/>
+<polygon fill="black" stroke="black" points="566.9,-174.44 556.32,-174.96 564.91,-181.15 566.9,-174.44"/>
+</g>
+<!-- Hamburger -->
+<g id="node26" class="node">
+<title>Hamburger</title>
+<polygon fill="orange" stroke="black" points="957.05,-180 900.55,-180 900.55,-144 957.05,-144 957.05,-180"/>
+<text xml:space="preserve" text-anchor="middle" x="928.8" y="-158.7" font-family="Times,serif" font-size="9.00">Hamburger</text>
+</g>
+<!-- Customize Item&#45;&gt;Hamburger -->
+<g id="edge25" class="edge">
+<title>Customize Item-&gt;Hamburger</title>
+<path fill="none" stroke="black" d="M778.5,-220.81C809.34,-208.95 856.26,-190.9 889.46,-178.13"/>
+<polygon fill="black" stroke="black" points="890.67,-181.42 898.74,-174.56 888.15,-174.88 890.67,-181.42"/>
+</g>
+<!-- Item is chicken nuggets? -->
+<g id="node19" class="node">
+<title>Item is chicken nuggets?</title>
+<ellipse fill="gray" stroke="black" cx="353.8" cy="-90" rx="60.03" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="353.8" y="-86.7" font-family="Times,serif" font-size="9.00">Item is chicken nuggets?</text>
+</g>
+<!-- Chicken Nuggets&#45;&gt;Item is chicken nuggets? -->
+<g id="edge18" class="edge">
+<title>Chicken Nuggets-&gt;Item is chicken nuggets?</title>
+<path fill="none" stroke="black" d="M476.58,-144.05C452.77,-133.76 422.31,-120.6 397.69,-109.96"/>
+<polygon fill="black" stroke="black" points="399.14,-106.78 388.57,-106.02 396.36,-113.2 399.14,-106.78"/>
+</g>
+<!-- How many? -->
+<g id="node20" class="node">
+<title>How many?</title>
+<polygon fill="cyan" stroke="black" points="507.34,-82.54 507.34,-97.46 485.35,-108 454.25,-108 432.26,-97.46 432.26,-82.54 454.25,-72 485.35,-72 507.34,-82.54"/>
+<text xml:space="preserve" text-anchor="middle" x="469.8" y="-86.7" font-family="Times,serif" font-size="9.00">How many?</text>
+</g>
+<!-- Chicken Nuggets&#45;&gt;How many? -->
+<g id="edge19" class="edge">
+<title>Chicken Nuggets-&gt;How many?</title>
+<path fill="none" stroke="black" d="M504.43,-143.7C499.25,-135.81 493,-126.3 487.24,-117.55"/>
+<polygon fill="black" stroke="black" points="490.29,-115.8 481.87,-109.37 484.44,-119.65 490.29,-115.8"/>
+</g>
+<!-- With fries? -->
+<g id="node23" class="node">
+<title>With fries?</title>
+<polygon fill="cyan" stroke="black" points="595.5,-82.54 595.5,-97.46 575.17,-108 546.43,-108 526.1,-97.46 526.1,-82.54 546.43,-72 575.17,-72 595.5,-82.54"/>
+<text xml:space="preserve" text-anchor="middle" x="560.8" y="-86.7" font-family="Times,serif" font-size="9.00">With fries?</text>
+</g>
+<!-- Chicken Nuggets&#45;&gt;With fries? -->
+<g id="edge22" class="edge">
+<title>Chicken Nuggets-&gt;With fries?</title>
+<path fill="none" stroke="black" d="M526.92,-143.7C531.99,-135.81 538.1,-126.3 543.73,-117.55"/>
+<polygon fill="black" stroke="black" points="546.52,-119.68 548.99,-109.38 540.63,-115.9 546.52,-119.68"/>
+</g>
+<!-- Has Quantity? -->
+<g id="node21" class="node">
+<title>Has Quantity?</title>
+<ellipse fill="gray" stroke="black" cx="368.8" cy="-18" rx="39.05" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="368.8" y="-14.7" font-family="Times,serif" font-size="9.00">Has Quantity?</text>
+</g>
+<!-- How many?&#45;&gt;Has Quantity? -->
+<g id="edge20" class="edge">
+<title>How many?-&gt;Has Quantity?</title>
+<path fill="none" stroke="black" d="M448.87,-74.5C434.38,-64.45 414.88,-50.93 398.74,-39.75"/>
+<polygon fill="black" stroke="black" points="401.16,-37.17 390.94,-34.35 397.17,-42.92 401.16,-37.17"/>
+</g>
+<!-- Ask how many? -->
+<g id="node22" class="node">
+<title>Ask how many?</title>
+<ellipse fill="gray" stroke="black" cx="468.8" cy="-18" rx="43.42" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="468.8" y="-14.7" font-family="Times,serif" font-size="9.00">Ask how many?</text>
+</g>
+<!-- How many?&#45;&gt;Ask how many? -->
+<g id="edge21" class="edge">
+<title>How many?-&gt;Ask how many?</title>
+<path fill="none" stroke="black" d="M469.55,-71.7C469.45,-64.41 469.32,-55.73 469.21,-47.54"/>
+<polygon fill="black" stroke="black" points="472.71,-47.57 469.07,-37.62 465.71,-47.67 472.71,-47.57"/>
+</g>
+<!-- Has fries? -->
+<g id="node24" class="node">
+<title>Has fries?</title>
+<ellipse fill="gray" stroke="black" cx="560.8" cy="-18" rx="30.31" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="560.8" y="-14.7" font-family="Times,serif" font-size="9.00">Has fries?</text>
+</g>
+<!-- With fries?&#45;&gt;Has fries? -->
+<g id="edge23" class="edge">
+<title>With fries?-&gt;Has fries?</title>
+<path fill="none" stroke="black" d="M560.8,-71.7C560.8,-64.41 560.8,-55.73 560.8,-47.54"/>
+<polygon fill="black" stroke="black" points="564.3,-47.62 560.8,-37.62 557.3,-47.62 564.3,-47.62"/>
+</g>
+<!-- Do you want fries with that? -->
+<g id="node25" class="node">
+<title>Do you want fries with that?</title>
+<ellipse fill="gray" stroke="black" cx="677.8" cy="-18" rx="68.34" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="677.8" y="-14.7" font-family="Times,serif" font-size="9.00">Do you want fries with that?</text>
+</g>
+<!-- With fries?&#45;&gt;Do you want fries with that? -->
+<g id="edge24" class="edge">
+<title>With fries?-&gt;Do you want fries with that?</title>
+<path fill="none" stroke="black" d="M583.08,-75.67C599.49,-65.85 622.17,-52.28 641.22,-40.88"/>
+<polygon fill="black" stroke="black" points="643,-43.9 649.79,-35.76 639.41,-37.89 643,-43.9"/>
+</g>
+<!-- Item is hamburger? -->
+<g id="node27" class="node">
+<title>Item is hamburger?</title>
+<ellipse fill="gray" stroke="black" cx="773.8" cy="-90" rx="49.1" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="773.8" y="-86.7" font-family="Times,serif" font-size="9.00">Item is hamburger?</text>
+</g>
+<!-- Hamburger&#45;&gt;Item is hamburger? -->
+<g id="edge26" class="edge">
+<title>Hamburger-&gt;Item is hamburger?</title>
+<path fill="none" stroke="black" d="M900.37,-148.16C876.22,-137.25 841.27,-121.47 814.21,-109.25"/>
+<polygon fill="black" stroke="black" points="815.83,-106.14 805.28,-105.22 812.95,-112.52 815.83,-106.14"/>
+</g>
+<!-- With pickles? -->
+<g id="node28" class="node">
+<title>With pickles?</title>
+<polygon fill="cyan" stroke="black" points="921.18,-82.54 921.18,-97.46 897.52,-108 864.08,-108 840.42,-97.46 840.42,-82.54 864.08,-72 897.52,-72 921.18,-82.54"/>
+<text xml:space="preserve" text-anchor="middle" x="880.8" y="-86.7" font-family="Times,serif" font-size="9.00">With pickles?</text>
+</g>
+<!-- Hamburger&#45;&gt;With pickles? -->
+<g id="edge27" class="edge">
+<title>Hamburger-&gt;With pickles?</title>
+<path fill="none" stroke="black" d="M916.93,-143.7C911.53,-135.81 905.01,-126.3 899,-117.55"/>
+<polygon fill="black" stroke="black" points="901.93,-115.62 893.38,-109.35 896.15,-119.58 901.93,-115.62"/>
+</g>
+<!-- With lettuce? -->
+<g id="node31" class="node">
+<title>With lettuce?</title>
+<polygon fill="cyan" stroke="black" points="1016.76,-82.54 1016.76,-97.46 993.94,-108 961.66,-108 938.84,-97.46 938.84,-82.54 961.66,-72 993.94,-72 1016.76,-82.54"/>
+<text xml:space="preserve" text-anchor="middle" x="977.8" y="-86.7" font-family="Times,serif" font-size="9.00">With lettuce?</text>
+</g>
+<!-- Hamburger&#45;&gt;With lettuce? -->
+<g id="edge30" class="edge">
+<title>Hamburger-&gt;With lettuce?</title>
+<path fill="none" stroke="black" d="M940.91,-143.7C946.49,-135.73 953.23,-126.1 959.41,-117.26"/>
+<polygon fill="black" stroke="black" points="962.09,-119.54 964.96,-109.34 956.36,-115.53 962.09,-119.54"/>
+</g>
+<!-- With tomatoes? -->
+<g id="node34" class="node">
+<title>With tomatoes?</title>
+<polygon fill="cyan" stroke="black" points="1167.43,-82.54 1167.43,-97.46 1141.29,-108 1104.31,-108 1078.17,-97.46 1078.17,-82.54 1104.31,-72 1141.29,-72 1167.43,-82.54"/>
+<text xml:space="preserve" text-anchor="middle" x="1122.8" y="-86.7" font-family="Times,serif" font-size="9.00">With tomatoes?</text>
+</g>
+<!-- Hamburger&#45;&gt;With tomatoes? -->
+<g id="edge33" class="edge">
+<title>Hamburger-&gt;With tomatoes?</title>
+<path fill="none" stroke="black" d="M957.42,-150.67C989.66,-139.04 1042.38,-120.02 1079.62,-106.58"/>
+<polygon fill="black" stroke="black" points="1080.52,-109.98 1088.74,-103.29 1078.15,-103.39 1080.52,-109.98"/>
+</g>
+<!-- With fries?* -->
+<g id="node37" class="node">
+<title>With fries?*</title>
+<polygon fill="cyan" stroke="black" points="1332.34,-82.54 1332.34,-97.46 1310.35,-108 1279.25,-108 1257.26,-97.46 1257.26,-82.54 1279.25,-72 1310.35,-72 1332.34,-82.54"/>
+<text xml:space="preserve" text-anchor="middle" x="1294.8" y="-86.7" font-family="Times,serif" font-size="9.00">With fries?*</text>
+</g>
+<!-- Hamburger&#45;&gt;With fries?* -->
+<g id="edge36" class="edge">
+<title>Hamburger-&gt;With fries?*</title>
+<path fill="none" stroke="black" d="M957.52,-155.51C1020.16,-143.53 1169.62,-114.94 1246.82,-100.18"/>
+<polygon fill="black" stroke="black" points="1247.02,-103.7 1256.18,-98.39 1245.7,-96.83 1247.02,-103.7"/>
+</g>
+<!-- Has pickles? -->
+<g id="node29" class="node">
+<title>Has pickles?</title>
+<ellipse fill="gray" stroke="black" cx="799.8" cy="-18" rx="35.55" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="799.8" y="-14.7" font-family="Times,serif" font-size="9.00">Has pickles?</text>
+</g>
+<!-- With pickles?&#45;&gt;Has pickles? -->
+<g id="edge28" class="edge">
+<title>With pickles?-&gt;Has pickles?</title>
+<path fill="none" stroke="black" d="M862.01,-72.76C851.21,-63.43 837.49,-51.57 825.68,-41.36"/>
+<polygon fill="black" stroke="black" points="828.1,-38.83 818.25,-34.94 823.52,-44.13 828.1,-38.83"/>
+</g>
+<!-- Pickles? -->
+<g id="node30" class="node">
+<title>Pickles?</title>
+<ellipse fill="gray" stroke="black" cx="880.8" cy="-18" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="880.8" y="-14.7" font-family="Times,serif" font-size="9.00">Pickles?</text>
+</g>
+<!-- With pickles?&#45;&gt;Pickles? -->
+<g id="edge29" class="edge">
+<title>With pickles?-&gt;Pickles?</title>
+<path fill="none" stroke="black" d="M880.8,-71.7C880.8,-64.41 880.8,-55.73 880.8,-47.54"/>
+<polygon fill="black" stroke="black" points="884.3,-47.62 880.8,-37.62 877.3,-47.62 884.3,-47.62"/>
+</g>
+<!-- Has lettuce? -->
+<g id="node32" class="node">
+<title>Has lettuce?</title>
+<ellipse fill="gray" stroke="black" cx="959.8" cy="-18" rx="34.24" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="959.8" y="-14.7" font-family="Times,serif" font-size="9.00">Has lettuce?</text>
+</g>
+<!-- With lettuce?&#45;&gt;Has lettuce? -->
+<g id="edge31" class="edge">
+<title>With lettuce?-&gt;Has lettuce?</title>
+<path fill="none" stroke="black" d="M973.35,-71.7C971.45,-64.32 969.19,-55.52 967.06,-47.25"/>
+<polygon fill="black" stroke="black" points="970.45,-46.38 964.57,-37.57 963.68,-48.13 970.45,-46.38"/>
+</g>
+<!-- Lettuce? -->
+<g id="node33" class="node">
+<title>Lettuce?</title>
+<ellipse fill="gray" stroke="black" cx="1038.8" cy="-18" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1038.8" y="-14.7" font-family="Times,serif" font-size="9.00">Lettuce?</text>
+</g>
+<!-- With lettuce?&#45;&gt;Lettuce? -->
+<g id="edge32" class="edge">
+<title>With lettuce?-&gt;Lettuce?</title>
+<path fill="none" stroke="black" d="M992.88,-71.7C1000.47,-62.98 1009.79,-52.28 1018.05,-42.81"/>
+<polygon fill="black" stroke="black" points="1020.63,-45.18 1024.56,-35.34 1015.35,-40.58 1020.63,-45.18"/>
+</g>
+<!-- Has tomatoes? -->
+<g id="node35" class="node">
+<title>Has tomatoes?</title>
+<ellipse fill="gray" stroke="black" cx="1122.8" cy="-18" rx="39.49" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1122.8" y="-14.7" font-family="Times,serif" font-size="9.00">Has tomatoes?</text>
+</g>
+<!-- With tomatoes?&#45;&gt;Has tomatoes? -->
+<g id="edge34" class="edge">
+<title>With tomatoes?-&gt;Has tomatoes?</title>
+<path fill="none" stroke="black" d="M1122.8,-71.7C1122.8,-64.41 1122.8,-55.73 1122.8,-47.54"/>
+<polygon fill="black" stroke="black" points="1126.3,-47.62 1122.8,-37.62 1119.3,-47.62 1126.3,-47.62"/>
+</g>
+<!-- Tomatoes? -->
+<g id="node36" class="node">
+<title>Tomatoes?</title>
+<ellipse fill="gray" stroke="black" cx="1211.8" cy="-18" rx="31.62" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1211.8" y="-14.7" font-family="Times,serif" font-size="9.00">Tomatoes?</text>
+</g>
+<!-- With tomatoes?&#45;&gt;Tomatoes? -->
+<g id="edge35" class="edge">
+<title>With tomatoes?-&gt;Tomatoes?</title>
+<path fill="none" stroke="black" d="M1143.44,-72.76C1155.79,-63.05 1171.62,-50.6 1184.94,-40.13"/>
+<polygon fill="black" stroke="black" points="1186.8,-43.12 1192.49,-34.19 1182.47,-37.62 1186.8,-43.12"/>
+</g>
+<!-- Has fries?* -->
+<g id="node38" class="node">
+<title>Has fries?*</title>
+<ellipse fill="gray" stroke="black" cx="1294.8" cy="-18" rx="32.93" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1294.8" y="-14.7" font-family="Times,serif" font-size="9.00">Has fries?*</text>
+</g>
+<!-- With fries?*&#45;&gt;Has fries?* -->
+<g id="edge37" class="edge">
+<title>With fries?*-&gt;Has fries?*</title>
+<path fill="none" stroke="black" d="M1294.8,-71.7C1294.8,-64.41 1294.8,-55.73 1294.8,-47.54"/>
+<polygon fill="black" stroke="black" points="1298.3,-47.62 1294.8,-37.62 1291.3,-47.62 1298.3,-47.62"/>
+</g>
+<!-- Do you want fries with that?* -->
+<g id="node39" class="node">
+<title>Do you want fries with that?*</title>
+<ellipse fill="gray" stroke="black" cx="1416.8" cy="-18" rx="70.96" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1416.8" y="-14.7" font-family="Times,serif" font-size="9.00">Do you want fries with that?*</text>
+</g>
+<!-- With fries?*&#45;&gt;Do you want fries with that?* -->
+<g id="edge38" class="edge">
+<title>With fries?*-&gt;Do you want fries with that?*</title>
+<path fill="none" stroke="black" d="M1318.32,-75.5C1335.54,-65.62 1359.26,-52.01 1379.11,-40.63"/>
+<polygon fill="black" stroke="black" points="1380.83,-43.67 1387.76,-35.66 1377.35,-37.6 1380.83,-43.67"/>
+</g>
+</g>
+</svg>
